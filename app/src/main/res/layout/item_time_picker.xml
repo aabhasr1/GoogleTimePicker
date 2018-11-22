@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_time_ll"
+    android:layout_width="72dp"
+    android:layout_height="92dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/city_text"
+            android:lineSpacingExtra="-2sp"
+            tools:text="9:45"/>
+        <TextView
+            android:id="@+id/item_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/city_text"
+            android:lineSpacingExtra="-2sp"
+            tools:text="AM"
+            />
+</LinearLayout>
